@@ -1,3 +1,7 @@
+#The Collatz conjecture is one of the most famous unsolved problems in mathematics.
+#The conjecture asks whether repeating two simple arithmetic operations will eventually transform every positive integer into 1
+#A simple code to check this problem and the number of steps it takes to get to 1
+
 def collatz_problem(n):
     count = 0
     while n != 1:
